@@ -65,6 +65,7 @@ body{
     font-weight:bold;
     z-index:10;
 }
+
 .stock-badge2{
     position:absolute;
     top:70px;
@@ -83,10 +84,10 @@ body{
     bottom:0;
     left:0;
     width:100%;
-    padding:25px;
+    padding:10px;
     color:white;
     background:rgba(0,0,0,.55);
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(2px);
 }
 
 .product-info h2{
@@ -230,3 +231,16 @@ body{
     font-size:30px;
     cursor:pointer;
 }
+
+        footer {
+            background-color: var(--dark);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
