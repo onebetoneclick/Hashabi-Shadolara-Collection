@@ -10,7 +10,7 @@
 <body>
 
 <div class="header">
-    <h1>Hashabi Shadolar Store</h1>
+    <h1>Bright Star Hotel</h1>
 
     <div class="store-total">
         Total Items In Store:
@@ -26,20 +26,26 @@
             Available: 15
         </div>
 
+	<div class="stock-badge2">
+            50% Discount
+        </div>
         <img
-        src="https://i.ibb.co/1fLjpXZs/images-5-3333.jpg"
-        alt="Jalabia">
+        src="https://i.ibb.co/yB7kYXFR/Whats-App-Image-2026-06-18-at-6-48-44-PM.jpg"
+        alt="Jihad Cap">
 
         <div class="product-info">
 
-            <h2>Jalabia</h2>
+            <h2>Jihad Cap</h2>
 
             <p>
-                Premium traditional wear collection.
+              A luxury Jihad Cap
             </p>
 
-            <div class="price">
-                ₦15,000
+           <div class="price">
+               <strong>5,000</strong>
+</div>
+		<div class="price">
+		<del>10,000</del>
             </div>
 
             <input
@@ -52,9 +58,9 @@
             <button
             class="add-btn"
             onclick="addToCart(
-            'Jalabia',
-            15000,
-            'https://i.ibb.co/1fLjpXZs/images-5-3333.jpg',
+            'Jihad Cap',
+            5000,
+            'https://i.ibb.co/yB7kYXFR/Whats-App-Image-2026-06-18-at-6-48-44-PM.jpg',
             'qty1'
             )">
             Add To Cart
@@ -63,9 +69,56 @@
         </div>
 
     </div>
+<div class="products">
 
+    <div class="product-card">
+
+        <div class="stock-badge">
+            Available: 20
+        </div>
+<div class="stock-badge2">
+            20% Discount
+        </div>
+        <img
+        src="https://i.ibb.co/r2w7jMFP/images-6.jpg"
+        alt="Luxuries Suites">
+
+        <div class="product-info">
+
+            <h2>Luxuries Suites</h2>
+
+            <p>
+                Premium traditional wear collection.
+            </p>
+
+            <div class="price">
+               <strong>80,000</strong>
 </div>
+		<div class="price">
+		<del>100,000</del>
+            </div>
 
+            <input
+            type="number"
+            value="1"
+            min="1"
+            id="qty1"
+            class="qty-input">
+
+            <button
+            class="add-btn"
+            onclick="addToCart(
+            'Luxuries Suites',
+            80000,
+            'https://i.ibb.co/r2w7jMFP/images-6.jpg',
+            'qty1'
+            )">
+            Add To Cart
+            </button>
+
+        </div>
+
+    </div>
 <div class="cart-box">
 
     <h2>Order Summary</h2>
@@ -153,6 +206,11 @@
     </div>
 
 </div>
+    
+<footer class="designer-footer">
+    <p>© 2026 Bright Star Hotel | Designed by <a href="#">Don Martial</a></p>
+	<a href="index.html">Back to Home</a>
+</footer>
 
 <script src="https://js.paystack.co/v1/inline.js"></script>
 <script src="script.js"></script>
